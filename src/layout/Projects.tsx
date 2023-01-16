@@ -4,7 +4,7 @@ import Divider from '../components/Divider';
 import ProjectsGrid from '../components/ProjectsGrid';
 
 export const getAllProjects = async () => {
-  const response = await fetch(`${import.meta.env.BASE_URL}/projects/projectsMetaData.json`);
+  const response = await fetch(`${import.meta.env.BASE_URL}projects/projectsMetaData.json`);
   const projects = await response.json();
   return { projects };
 };

@@ -9,4 +9,7 @@ export default defineConfig({
       overlay: false,
     },
   },
+  build: {
+    outDir: 'docs',
+  }
 });
