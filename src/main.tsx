@@ -14,15 +14,15 @@ const router = createBrowserRouter([
     element: <App />,
     errorElement: <div>NOT FOUND</div>,
     children: [
-      { path: '', element: <LandingPage />, loader: getRecentProjects },
+      { path: '/', element: <LandingPage />, loader: getRecentProjects },
       {
-        path: 'projects',
+        path: '/projects',
         element: <Projects />,
         errorElement: <div>NOT FOUND</div>,
         loader: getAllProjects,
       },
       {
-        path: 'projects/:id',
+        path: '/projects/:id',
         element: <SingleProject />,
         errorElement: <div>NOT FOUND</div>,
         loader: getProject,
