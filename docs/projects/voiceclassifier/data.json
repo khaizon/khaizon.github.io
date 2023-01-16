@@ -1,0 +1,34 @@
+{
+  "title": "Age Classifier",
+  "subtitle": "Experiementation with RNNs, Bidirectional GRUs, TCNs, and CNNs, for classifying age from voice",
+  "duration": "Jan 22 - Apr 22",
+  "gallery": [
+    {
+      "isLocal": true,
+      "isVideo": false,
+      "src": "projects/voiceclassifier/thumbnail.png",
+      "description": "Python Notebook to show age classification from voice",
+      "thumbnail": "projects/voiceclassifier/thumbnail.png"
+    },
+    {
+      "isLocal": true,
+      "isVideo": false,
+      "src": "projects/voiceclassifier/pynbscreenshot.png",
+      "description": "Online Python Notebook to run age classification from voice",
+      "thumbnail": "projects/voiceclassifier/pynbscreenshot.png"
+    }
+  ],
+  "description": "In this project we used PyTorch to experiement with multiple neural network architectures to train an age classifier from voice recording samples. They range from vanilla Recurrent Neural Networks (RNNs), Bidirectional Gated Recurrent Units (Bidirectional GRUs), Temporal Convolutional Neural Networks (TCNs), and vanilla Convolutional Neural Networks (CNNs). We have found the most success using vanilla CNNs with an accuracy of 35%. I was primarily responsible for the data collection and data cleaning, and adjusting the available data to fit the PyTorch framework. ",
+  "relevantLinks": [
+    {
+      "title": "Github",
+      "url": "https://hub.ovh2.mybinder.org/user/sqiyan-dlvoiceclassification-x3wjopiw/notebooks/Project_Code_for_GUI.ipynb",
+      "isLocal": false
+    },
+    {
+      "title": "Python Notebook",
+      "url": "https://hub.ovh2.mybinder.org/user/sqiyan-dlvoiceclassification-x3wjopiw/notebooks/Project_Code_for_GUI.ipynb",
+      "isLocal": false
+    }
+  ]
+}

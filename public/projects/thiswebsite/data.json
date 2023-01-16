@@ -1,0 +1,22 @@
+{
+  "title": "This Website",
+  "subtitle": "Mobile responsive website with swipeable carousels",
+  "duration": "Dec 22 - Jan 23",
+  "gallery": [
+    {
+      "isLocal": true,
+      "isVideo": true,
+      "src": "projects/thiswebsite/mobileresponsive.mp4",
+      "description": "Mobile Responsive",
+      "thumbnail": "projects/thiswebsite/mobileresponsivethumb.png"
+    }
+  ],
+  "description": "This website is built with ReactJS and TypeScript and is mobile responsive. The carousel galleries also support touch swiping. The website is hosted on Github Pages and the source code is available on Github.",
+  "relevantLinks": [
+    {
+      "title": "Github",
+      "url": "https://github.com/khaizon/khaizon.github.io",
+      "isLocal": false
+    }
+  ]
+}

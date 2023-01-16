@@ -1,8 +1,24 @@
 [
   {
+    "title": "This Website",
+    "description": "A mobile responsive website built with react typescript",
+    "date": "Jan 2023",
+    "thumbnail": "projects/thiswebsite/thiswebsite.gif",
+    "id": "thiswebsite",
+    "featured": false
+  },
+  {
+    "title": "Particle System",
+    "description": "A particle system that morphs and explodes",
+    "date": "Aug 2022",
+    "thumbnail": "projects/morphandexplode/morphNexplode.gif",
+    "id": "morphandexplode",
+    "featured": false
+  },
+  {
     "title": "Panorama",
     "description": "A Dashboard-Chatbot Hybrid to Facilitate MRO Planning",
-    "date": "07 Jan 2022",
+    "date": "Aug 2022",
     "thumbnail": "projects/panorama/capstoneVideoThumb.png",
     "id": "panorama",
     "featured": true
@@ -10,7 +26,7 @@
   {
     "title": "Cashier App",
     "description": "A cashier application for maomaothinks",
-    "date": "24 June 2022",
+    "date": "June 2022",
     "thumbnail": "projects/maomaocashier/maomaocashier.png",
     "id": "maomaocashier",
     "featured": true
@@ -18,17 +34,17 @@
   {
     "title": "DynaGO DB",
     "description": "A Dynamo DB clone built with React and Golang",
-    "date": "07 Jan 2022",
+    "date": "Apr 2022",
     "thumbnail": "projects/dynagoDB/dynagoDB.png",
     "id": "dynagoDB",
     "featured": true
   },
   {
-    "title": "Morph & Explode",
-    "description": "A particle system that morphs and explodes",
-    "date": "11 Aug 2022",
-    "thumbnail": "projects/morphandexplode/morphandexplode.png",
-    "id": "morphandexplode",
+    "title": "Age Classifier",
+    "description": "Experiementation with different neural network architectures",
+    "date": "Apr 2022",
+    "thumbnail": "projects/voiceclassifier/thumbnail.png",
+    "id": "voiceclassifier",
     "featured": false
   }
 ]
