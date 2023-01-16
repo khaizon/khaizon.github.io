@@ -1,0 +1,36 @@
+{
+  "title": "Singhealth Retail Audit App",
+  "subtitle": "A mobile web application for Singhealth staff to perform audits at retail outlets",
+  "duration": "Jan 21 - Apr 21",
+  "gallery": [
+    {
+      "isLocal": true,
+      "isVideo": true,
+      "src": "projects/singhealth/demotest.mp4",
+      "description": "Demo using automated UI testing",
+      "thumbnail": "projects/singhealth/thumbnail.png"
+    },
+    {
+      "isLocal": true,
+      "isVideo": true,
+      "src": "projects/singhealth/emailtest.mp4",
+      "description": "Sends an email to the user when an audit is submitted",
+      "thumbnail": "projects/singhealth/emailtestthumb.png"
+    },
+    {
+      "isLocal": true,
+      "isVideo": true,
+      "src": "projects/singhealth/backendtest.mp4",
+      "description": "Backend tests for the app",
+      "thumbnail": "projects/singhealth/backendtestthumb.png"
+    }
+  ],
+  "description": "We developed a mobile web application for Singhealth staff to perform audits at retail outlets. The app allows staff to perform audits on the go, and provides a convenient way to record and submit audit reports. I was responsible for developing the frontend and backend of the app. I also wrote the automated UI tests for the app. This app uses a MERNG serverless architecture hosted on Heroku with MongoDB as the database.",
+  "relevantLinks": [
+    {
+      "title": "Github",
+      "url": "https://github.com/nicolefranc/singhealth-retail-audit",
+      "isLocal": false
+    }
+  ]
+}

@@ -46,5 +46,13 @@
     "thumbnail": "projects/voiceclassifier/thumbnail.png",
     "id": "voiceclassifier",
     "featured": false
+  },
+  {
+    "title": "Auditing App",
+    "description": "Mobile web app for Singhealth to facilitate audits at retail outlets",
+    "date": "Apr 2021",
+    "thumbnail": "projects/singhealth/thumbnail.png",
+    "id": "singhealth",
+    "featured": false
   }
 ]
