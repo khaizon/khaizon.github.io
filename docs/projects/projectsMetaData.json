@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Panorama",
+    "description": "A Dashboard-Chatbot Hybrid to Facilitate MRO Planning",
+    "date": "07 Jan 2022",
+    "thumbnail": "/projects/panorama/capstoneVideoThumb.png",
+    "id": "panorama",
+    "featured": true
+  },
+  {
+    "title": "Cashier App",
+    "description": "A cashier application for maomaothinks",
+    "date": "24 June 2022",
+    "thumbnail": "/projects/maomaocashier/maomaocashier.png",
+    "id": "maomaocashier",
+    "featured": true
+  },
+  {
+    "title": "DynaGO DB",
+    "description": "A Dynamo DB clone built with React and Golang",
+    "date": "07 Jan 2022",
+    "thumbnail": "/projects/dynagoDB/dynagoDB.png",
+    "id": "dynagoDB",
+    "featured": true
+  },
+  {
+    "title": "Morph & Explode",
+    "description": "A particle system that morphs and explodes",
+    "date": "11 Aug 2022",
+    "thumbnail": "/projects/morphandexplode/morphandexplode.png",
+    "id": "morphandexplode",
+    "featured": false
+  }
+]

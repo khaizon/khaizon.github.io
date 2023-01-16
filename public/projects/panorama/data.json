@@ -1,0 +1,95 @@
+{
+  "title": "Panorama",
+  "subtitle": "A chatbot-dashboard hybrid for line managers at Collins Aerospace",
+  "duration": "Jan 22 - Aug 22",
+  "gallery": [
+    {
+      "isLocal": false,
+      "isVideo": true,
+      "src": "https://www.youtube.com/embed/Ld4hoGdI_bA?autoplay=1&mute=1",
+      "description": "Youtube Video",
+      "thumbnail": "projects/panorama/capstoneVideoThumb.png"
+    },
+    {
+      "isLocal": true,
+      "isVideo": false,
+      "src": "projects/panorama/system_architecture.png",
+      "description": "System Architecture",
+      "thumbnail": "projects/panorama/system_architecture.png"
+    },
+    {
+      "isLocal": true,
+      "isVideo": false,
+      "src": "projects/panorama/employee_filter.gif",
+      "description": "Filter employees by qualification",
+      "thumbnail": "projects/panorama/employee_filter.gif"
+    },
+    {
+      "isLocal": true,
+      "isVideo": false,
+      "src": "projects/panorama/employee_hovertoview.gif",
+      "description": "Employee Hover",
+      "thumbnail": "projects/panorama/employee_hovertoview.gif"
+    },
+    {
+      "isLocal": true,
+      "isVideo": false,
+      "src": "projects/panorama/employeeschedule_easycontrols.gif",
+      "description": "Get employee schedule with chatbot",
+      "thumbnail": "projects/panorama/employeeschedule_easycontrols.gif"
+    },
+    {
+      "isLocal": true,
+      "isVideo": false,
+      "src": "projects/panorama/intuitive_homescreen.gif",
+      "description": "Homescreen",
+      "thumbnail": "projects/panorama/intuitive_homescreen.gif"
+    },
+    {
+      "isLocal": true,
+      "isVideo": false,
+      "src": "projects/panorama/sendupdates.gif",
+      "description": "Notify colleagues",
+      "thumbnail": "projects/panorama/sendupdates.gif"
+    },
+    {
+      "isLocal": true,
+      "isVideo": false,
+      "src": "projects/panorama/smartredirection.gif",
+      "description": "Smart redirection with chatbot",
+      "thumbnail": "projects/panorama/smartredirection.gif"
+    },
+    {
+      "isLocal": true,
+      "isVideo": false,
+      "src": "projects/panorama/workorder_filtering.gif",
+      "description": "Workorder filter presets",
+      "thumbnail": "projects/panorama/workorder_filtering.gif"
+    },
+    {
+      "isLocal": true,
+      "isVideo": false,
+      "src": "projects/panorama/workorder_easycontrol.gif",
+      "description": "Obtain workorder status with chatbot",
+      "thumbnail": "projects/panorama/workorder_easycontrol.gif"
+    }
+  ],
+  "description": "Panorama is designed from the ground up to allow Line Managers to easily stay updated on the latest happenings on the workshop floor. From helping a coworker find an extra torque wrench, to determining if Work Orders need to be expedited, there's no guesswork required. With thoughtfully designed alerts, intuitively designed navigation, to a friendly Chatbot that lets you quickly find specifics, we help make the best even better. ",
+  "relevantLinks": [
+    {
+      "title": "Youtube",
+      "url": "https://www.youtube.com/watch?v=Ld4hoGdI_bA",
+      "isLocal": false
+    },
+    {
+      "title": "Website",
+      "url": "https://capstone2022.sutd.edu.sg/projects/panorama-facilitating-mro-planning",
+      "isLocal": false
+    },
+    {
+      "title": "Poster",
+      "url": "projects/panorama/capstonePoster.pdf",
+      "isLocal": true
+    }
+  ]
+}

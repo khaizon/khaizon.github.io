@@ -1,0 +1,95 @@
+.projects-panel {
+  background-color: var(--background);
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-panel-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    '. projects-panel-number'
+    'projects-panel-title projects-panel-title';
+  width: 100%;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.projects-panel-title {
+  grid-area: projects-panel-title;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.projects-panel-number {
+  grid-area: projects-panel-number;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.view-all-button {
+  margin-top: 2em;
+  background-color: var(--background);
+  width: 15em;
+  color: white;
+  padding: 1.2em 2em;
+  border-radius: 0;
+  border: 1px solid var(--blue);
+  font-family: Poppins;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 4.7px;
+  box-shadow: 4px 4px 0px 0px #67e0e1;
+  transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+  -webkit-transition: all 0.4s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+}
+.view-all-button:hover {
+  background-color: var(--blue);
+  color: var(--background);
+  box-shadow: None;
+}
+
+@media screen and (min-width: 550px) {
+  .projects-panel-top {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+      '. projects-panel-number .'
+      'projects-panel-title projects-panel-title projects-panel-title';
+    width: min(90%, 1000px);
+  }
+
+  .project-image {
+    height: 100%;
+    justify-content: flex-end;
+    grid-column: span 2;
+  }
+  .projects-panel-title {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .projects-panel-top {
+    grid-template-columns: 3fr 2fr;
+    grid-template-areas: 'projects-panel-title projects-panel-number';
+    width: min(90%, 1000px);
+    gap: 5rem;
+  }
+  .projects-panel-bottom {
+    width: min(90%, 1000px);
+  }
+  .project-image {
+    grid-row: 1;
+    grid-column: span 1;
+  }
+  .projects-panel-title {
+    margin-top: 0px;
+  }
+}

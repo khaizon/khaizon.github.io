@@ -1,0 +1,58 @@
+{
+  "title": "DynagoDB",
+  "subtitle": "An amazon dynamoDB clone implemented in GoLang",
+  "duration": "Jan 22 - May 22",
+  "gallery": [
+    {
+      "isLocal": true,
+      "isVideo": false,
+      "src": "projects/dynagoDB/dynagoDB.png",
+      "description": "Scalable ring structure with fault tolerance",
+      "thumbnail": "projects/dynagoDB/dynagoDB.png"
+    },
+    {
+      "isLocal": true,
+      "isVideo": false,
+      "src": "projects/dynagoDB/overall_architecture.jpeg",
+      "description": "Overall system architecture",
+      "thumbnail": "projects/dynagoDB/overall_architecture.jpeg"
+    },
+    {
+      "isLocal": true,
+      "isVideo": false,
+      "src": "projects/dynagoDB/frontend_poc.jpeg",
+      "description": "Frontend Proof-of-Concept",
+      "thumbnail": "projects/dynagoDB/frontend_poc.jpeg"
+    },
+    {
+      "isLocal": true,
+      "isVideo": false,
+      "src": "projects/dynagoDB/latency_reduction.jpeg",
+      "description": "Latency reduction after scaling up nodes",
+      "thumbnail": "projects/dynagoDB/latency_reduction.jpeg"
+    }
+  ],
+  "description": "With the goal of demonstrating our learning and understanding of core concepts covered in the 50.041 Distributed Systems and Computing course instructed by Professor Sudipta Chattopadhyay at SUTD, this project implementing a key-value distributed storage that is similar to Amazon's DynamoDB while emulating certain features that has contributed to the success of DynamoDB as a commercially available key-value store. Features that we will be implementing include Scalability through joining, Intermittent fault tolerance through hinted handoffs, High write availability through an always-write policy and Data versioning control through vector clock implementation.",
+  "relevantLinks": [
+    {
+      "title": "Github",
+      "url": "https://github.com/xvnyv/distributed-systems",
+      "isLocal": false
+    },
+    {
+      "title": "Project Report",
+      "url": "projects/dynagoDB/project_report.pdf",
+      "isLocal": true
+    },
+    {
+      "title": "Project Slides",
+      "url": "projects/dynagoDB/project_presentation.pdf",
+      "isLocal": true
+    },
+    {
+      "title": "Course Info",
+      "url": "https://istd.sutd.edu.sg/undergraduate/courses/50041-distributed-systems-computing",
+      "isLocal": false
+    }
+  ]
+}

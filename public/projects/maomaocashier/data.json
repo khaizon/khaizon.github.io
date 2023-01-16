@@ -1,0 +1,36 @@
+{
+  "title": "Point of Sales Web Application",
+  "duration": "Jun 22 - Jul 22",
+  "subtitle": "A point of sales web application made for instagram artist @maomaothinks",
+  "gallery": [
+    {
+      "isLocal": true,
+      "isVideo": true,
+      "src": "projects/maomaocashier/main_demo.mp4",
+      "description": "Brief Video Demonstration",
+      "thumbnail": "projects/maomaocashier/maomaocashier.png"
+    },
+    {
+      "isLocal": true,
+      "isVideo": true,
+      "src": "projects/maomaocashier/excel_integration_reading.mp4",
+      "description": "Integrated with Excel for content management",
+      "thumbnail": "projects/maomaocashier/excel_integration_reading_thumb.jpeg"
+    },
+    {
+      "isLocal": true,
+      "isVideo": false,
+      "src": "projects/maomaocashier/maomaocashier.png",
+      "description": "Screenshot of main page",
+      "thumbnail": "projects/maomaocashier/maomaocashier.png"
+    }
+  ],
+  "description": "This was a project for my girlfriend who creates art as a hobby and runs pop-up stores from time to time. I designed this application for ipad use to speed up and enhance the experience of 'point-of-sale' transactions. It saves the effort to recall and calculate the prices of all products every transaction. \n\nThe key features include excel integration for ease of content management (in cases where there are price changes or new items). The application was later developed further to record each transaction on excel for analytics and stock taking.",
+  "relevantLinks": [
+    {
+      "title": "Github",
+      "url": "https://github.com/khaizon/Cashier-App",
+      "isLocal": false
+    }
+  ]
+}

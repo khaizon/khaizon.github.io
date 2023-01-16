@@ -1,0 +1,39 @@
+{
+  "title": "Morph and Explode",
+  "subtitle": "A particle system that morphs and explodes from one 3D shape to another",
+  "duration": "Jan 22 - May 22",
+  "gallery": [
+    {
+      "isLocal": true,
+      "isVideo": false,
+      "src": "projects/morphandexplode/morphNexplode.gif",
+      "description": "Demo GIF",
+      "thumbnail": "projects/morphandexplode/morphNexplode.gif"
+    },
+    {
+      "isLocal": false,
+      "isVideo": true,
+      "src": "https://www.youtube.com/embed/UGbaeqW5Lys?autoplay=1&mute=1",
+      "description": "Full Video Demonstration",
+      "thumbnail": "projects/morphandexplode/videothumb.png"
+    }
+  ],
+  "description": "Morph and Explode is a term-long group project that seeks to apply concepts learnt from SUTD's Graphics and Visualisation module. The application was written in HTML, and CSS for basic user interface and ThreeJS for particle transformation effects.",
+  "relevantLinks": [
+    {
+      "title": "Youtube",
+      "url": "https://www.youtube.com/watch?v=Ld4hoGdI_bA",
+      "isLocal": false
+    },
+    {
+      "title": "Github",
+      "url": "https://github.com/khaizon/50.017-Graphics-and-Visualisation-Project",
+      "isLocal": false
+    },
+    {
+      "title": "Demo",
+      "url": "https://khaizon.github.io/50.017-Graphics-and-Visualisation-Project/",
+      "isLocal": false
+    }
+  ]
+}

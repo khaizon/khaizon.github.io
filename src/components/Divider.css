@@ -1,0 +1,16 @@
+.divider {
+  grid-area: divider;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+}
+
+.divider-line {
+  width: 100%;
+  border-bottom: 2px solid rgba(50, 50, 50, 70);
+}
+
+.divider-block {
+  width: 5em;
+  border-bottom: 10px solid var(--blue);
+}
