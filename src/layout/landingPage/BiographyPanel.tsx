@@ -28,16 +28,16 @@ const ABOUT_ME_HTML = (
     Apart from coding, here are some other things I enjoy: <br />
     <div className="hobbies">
       <div className="hobby">
-        <img src={`${import.meta.env.BASE_URL}/hobbies/lebron.gif`} alt="Watching the NBA" />
+        <img src={`${import.meta.env.BASE_URL}hobbies/lebron.gif`} alt="Watching the NBA" />
         <div className="hobby-text">NBA</div>
       </div>
       <div className="hobby">
-        <img src={`${import.meta.env.BASE_URL}/hobbies/photography.jpeg`} alt="Photography" />
+        <img src={`${import.meta.env.BASE_URL}hobbies/photography.jpeg`} alt="Photography" />
         <div className="hobby-text">Photography</div>
       </div>
       <div className="hobby">
-        <img src={`${import.meta.env.BASE_URL}/hobbies/family.jpeg`} alt="Family Time" />
-        <img src={`${import.meta.env.BASE_URL}/hobbies/gf.jpeg`} alt="Girlfriend" />
+        <img src={`${import.meta.env.BASE_URL}hobbies/family.jpeg`} alt="Family Time" />
+        <img src={`${import.meta.env.BASE_URL}hobbies/gf.jpeg`} alt="Girlfriend" />
         <div className="hobby-text">Family</div>
       </div>
     </div>
@@ -50,28 +50,28 @@ const educationData = [
     subtitle: 'Dual Degree Programme of Technology and Management (Bachelors of Business Management)',
     description: '',
     time: '2019 - 2023',
-    image: `${import.meta.env.BASE_URL}/education/SMU.jpeg`,
+    image: `${import.meta.env.BASE_URL}education/SMU.jpeg`,
   },
   {
     title: 'Singapore University of Techonology and Design',
     subtitle: 'Dual Degree Programme of Technology and Management (Bachelors of Engineering - Computer Science & Design)',
     description: 'Member of Marketwatch and SUTD Swimming',
     time: '2019 - 2023',
-    image: `${import.meta.env.BASE_URL}/education/SUTD.png`,
+    image: `${import.meta.env.BASE_URL}education/SUTD.png`,
   },
   {
     title: 'Victorial Junior College',
     subtitle: 'GCE A Levels - PCME and H3 Mathematics',
     description: 'Orientation Group Head of 2016 Freshmore Orientation',
     time: '2015 - 2016',
-    image: `${import.meta.env.BASE_URL}/education/VJC.png`,
+    image: `${import.meta.env.BASE_URL}education/VJC.png`,
   },
   {
     title: 'Chung Cheng High School (Main)',
     subtitle: 'GCE O Levels',
     description: 'Badminton Vice Captain',
     time: '2011 - 2014',
-    image: `${import.meta.env.BASE_URL}/education/CCHMS.png`,
+    image: `${import.meta.env.BASE_URL}education/CCHMS.png`,
   },
 ];
 
@@ -104,7 +104,7 @@ const careerData = [
       `Supported over 350 insurance intermediaries on a monthly basis.`,
     ],
     time: '2021 - 2022',
-    image: `${import.meta.env.BASE_URL}/career/Surer.png`,
+    image: `${import.meta.env.BASE_URL}career/Surer.png`,
   },
   {
     title: 'Singapore Telecommunications Limited (Singtel)',
@@ -114,7 +114,7 @@ const careerData = [
       `The deployment of the application automated the monitoring of inventory and faults of more than 100 spare parts`,
     ],
     time: '2021 - 2021',
-    image: `${import.meta.env.BASE_URL}/career/Singtel.png`,
+    image: `${import.meta.env.BASE_URL}career/Singtel.png`,
   },
   {
     title: 'VASSS Pte Ltd',
@@ -124,7 +124,7 @@ const careerData = [
       `Supervised 2 interns to develop a website which digitized the workflow of a large maid agency with operations of 20 outlets in Singapore`,
     ],
     time: '2019 - 2019',
-    image: `${import.meta.env.BASE_URL}/career/VASSS.png`,
+    image: `${import.meta.env.BASE_URL}career/VASSS.png`,
   },
 ];
 
@@ -168,7 +168,7 @@ export default function BiographyPanel() {
           <div
             className="panel-number image-text"
             style={{
-              backgroundImage: `url(${import.meta.env.BASE_URL}/profilepic.jpeg)`,
+              backgroundImage: `url(${import.meta.env.BASE_URL}profilepic.jpeg)`,
             }}
           >
             01

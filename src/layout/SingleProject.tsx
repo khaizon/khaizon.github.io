@@ -110,7 +110,7 @@ export default function SingleProject() {
             {project.relevantLinks.map((link: any, index: number) => (
               <div className="link" key={index}>
                 <li>
-                  <a href={(link.islocal ? import.meta.env.BASE_URL : '') + link.url} target="_blank" rel="noreferrer">
+                  <a href={link.isLocal ? `${import.meta.env.BASE_URL}${link.url}` : link.url} target="_blank">
                     {link.title}
                   </a>
                 </li>

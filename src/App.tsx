@@ -1,10 +1,11 @@
-import { Outlet, useNavigate, useLocation } from 'react-router-dom';
+import { Outlet, useNavigate, NavLink, useLocation } from 'react-router-dom';
 import './App.css';
 import Icon from './icons/icon';
 
 export default function App() {
   const navigate = useNavigate();
   const location = useLocation();
+  const activeClassName = 'active';
   return (
     <div className="landing-page-parent">
       <div className="menubar">

@@ -7,7 +7,7 @@ export default function LandingPage() {
       <div className="cover">
         <div className="cover-grid">
           <div className="profile-pic">
-            <img src={`${import.meta.env.BASE_URL}/profilemasked.png`} />
+            <img src={`${import.meta.env.BASE_URL}profilemasked.png`} />
           </div>
           <div className="name-box image-text">
             <div className="name-top ">Toh</div>

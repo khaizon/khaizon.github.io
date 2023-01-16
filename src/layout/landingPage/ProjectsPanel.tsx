@@ -22,7 +22,7 @@ export default function ProjectsPanel() {
           <div
             className="panel-number image-text"
             style={{
-              backgroundImage: `url(${import.meta.env.BASE_URL}/yp.jpeg)`,
+              backgroundImage: `url(${import.meta.env.BASE_URL}yp.jpeg)`,
             }}
           >
             02
