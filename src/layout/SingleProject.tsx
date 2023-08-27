@@ -46,7 +46,7 @@ export default function SingleProject() {
                 swiper?.slidePrev();
               }}
             >
-              <svg id="a" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <svg id="a" data-name="Layer 1" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path d="M17,23.5c.38,0,.77-.15,1.06-.44,.59-.59,.59-1.54,0-2.12L9.12,12,18.06,3.06c.59-.59,.59-1.54,0-2.12-.59-.59-1.54-.59-2.12,0L5.94,10.94c-.59,.59-.59,1.54,0,2.12l10,10c.29,.29,.68,.44,1.06,.44Z" />
               </svg>
             </div>
@@ -76,7 +76,7 @@ export default function SingleProject() {
                 swiper?.slideNext();
               }}
             >
-              <svg id="a" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <svg id="a" data-name="Layer 1" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path d="M7,23.5c-.38,0-.77-.15-1.06-.44-.59-.59-.59-1.54,0-2.12L14.88,12,5.94,3.06c-.59-.59-.59-1.54,0-2.12,.59-.59,1.54-.59,2.12,0l10,10c.59,.59,.59,1.54,0,2.12l-10,10c-.29,.29-.68,.44-1.06,.44Z" />
               </svg>
             </div>
