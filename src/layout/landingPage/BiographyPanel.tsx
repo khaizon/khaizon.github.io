@@ -97,11 +97,21 @@ const EDUCATION_HTML = (
 
 const careerData = [
   {
+    title: 'Singapore Telecommunications Limited (Singtel)',
+    subtitle: 'Management Associate',
+    description: [
+      `Leading an IT transformation initiative to discover new ways of maintenance and enhancement of source code for over 40 applications`,
+      `Conducting extensive research and collaborating with experienced vendors to drive successful outcomes`,
+    ],
+    time: '2023 - Present',
+    image: `${import.meta.env.BASE_URL}career/Singtel.png`,
+  },
+  {
     title: 'SurerSG (Whitechalk Pte Ltd)',
     subtitle: '(Backend) Software Engineer Intern',
     description: [
-      `Developed new API endpoints using Asp.Net Boilerplate (ABP) framework in C# that adopted Domain-Driven Design to serve data to Surer's Web Application`,
-      `Supported over 350 insurance intermediaries on a monthly basis.`,
+      `Developed new API endpoints using Asp.Net Boilerplate (ABP) framework in C#, implementing Domain-Driven Design for Surer’s Web Application.`,
+      `Supported 350+ insurance intermediaries monthly`,
     ],
     time: '2021 - 2022',
     image: `${import.meta.env.BASE_URL}career/Surer.png`,
@@ -110,8 +120,8 @@ const careerData = [
     title: 'Singapore Telecommunications Limited (Singtel)',
     subtitle: 'Assistant Engineer in Change & Access Management Intern',
     description: [
-      ` Developed a PowerApps application to automate the management and fault-monitoring of spare equipment which were adopted and employed to support Singtel's communication infrastructure`,
-      `The deployment of the application automated the monitoring of inventory and faults of more than 100 spare parts`,
+      `Developed a PowerApps application automating spare equipment management and fault-monitoring, optimizing communication infrastructure support`,
+      `Successful deployment resulted in automated monitoring of over 100 spare parts`,
     ],
     time: '2021 - 2021',
     image: `${import.meta.env.BASE_URL}career/Singtel.png`,
@@ -120,8 +130,8 @@ const careerData = [
     title: 'VASSS Pte Ltd',
     subtitle: 'Software Development Intern',
     description: [
-      `Automated the generation of receipts, tracking of monthly sales, and liaison between the maid agency and for overseas partners by creating a PHP and Javascript based web application`,
-      `Supervised 2 interns to develop a website which digitized the workflow of a large maid agency with operations of 20 outlets in Singapore`,
+      `Supervised a team to develop a website digitizing the workflow of a large maid agency with operations across 20 outlets in Singapore`,
+      `Utilized PHP and Javascript to enable automatic receipt generation, monthly sales tracking, and enhanced communication with overseas partners`,
     ],
     time: '2019 - 2019',
     image: `${import.meta.env.BASE_URL}career/VASSS.png`,

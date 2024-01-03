@@ -29,8 +29,9 @@
 }
 
 .project-image img {
+  height: 170px;
   width: 100%;
-  object-fit: contain;
+  object-fit: fill;
 }
 
 .project-text {
