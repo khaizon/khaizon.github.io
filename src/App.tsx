@@ -42,7 +42,7 @@ export default function App() {
       <div className="footer">
         Happy to connect on:
         <Icon link="https://www.linkedin.com/in/kai-feng-toh/" variant="linkedin" />
-        <Icon link="mailto:toh.kai.feng.2015@vjc.edu.sg" variant="email" />
+        <Icon link="mailto:kftoh98@gmail.com" variant="email" />
         <Icon link="https://github.com/khaizon" variant="github" />
       </div>
     </div>
